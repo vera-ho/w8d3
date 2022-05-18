@@ -1,0 +1,42 @@
+/* PHASE 0: Sidebar */
+.profile-picture {
+    display: block;
+    position: relative;
+    margin-top: -120px;
+    border: solid black 1px;
+    border-radius: 5px;
+}
+
+.profile-picture img {
+    border-radius: 5px;
+}
+
+.profile-info h1 { 
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-info p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-nav {
+    margin-bottom: 25px;
+}
+
+.profile-nav li {
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: solid 1px grey;
+}
+
+.profile-nav li:first-child {
+    border-top: solid 1px grey;
+}
+
+.profile-nav li:hover {
+    background-color: gainsboro;
+}
