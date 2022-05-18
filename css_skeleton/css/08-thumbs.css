@@ -23,6 +23,11 @@
     margin-bottom: 10px;
 }
 
-.thumb:before {
+.thumb:before{
     content: attr(title);
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
 }
