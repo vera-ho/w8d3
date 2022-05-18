@@ -152,7 +152,7 @@ Board.prototype.placePiece = function (pos, color) {
 Board.prototype.validMoves = function (color) {
   let mov_dirs = new Array();
 
-    for(let i=0; )
+    // for(let i=0; )
 
 
   return mov_dirs;
