@@ -117,7 +117,7 @@ Board.prototype._positionsToFlip = function(pos, color, dir, piecesToFlip) {
   if(!piecesToFlip){
     piecesToFlip = [];
   } else {
-    piecesToFlip.push([pos]);
+    piecesToFlip.push(pos);
   }
   
   let x = pos[0] + dir[0];
@@ -129,9 +129,9 @@ Board.prototype._positionsToFlip = function(pos, color, dir, piecesToFlip) {
   } else if(!this.isOccupied(next_pos)) {
     return [];
   } else if(this.isMine(next_pos, color)) {
-    return piecesToFlip;
+    return piecesToFlip; //== 0 ? [] : piecesToFlip; // if has a lenght of 0 if do return something?? 
   } else {
-    this._positionsToFlip(next_pos, color, dir, piecesToFlip);
+     return this._positionsToFlip(next_pos, color, dir, piecesToFlip);
   }
 };
 
