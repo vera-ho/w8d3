@@ -1,2 +1,25 @@
 /* PHASE 2: Thumbs */
 
+.friends {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.friends img {
+    border-radius: 5px;
+    border: solid black 1px;
+    width: 58px;
+    /* display: block; */
+}
+
+.friends li:nth-child(3n+2) {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.friends li:nth-child(4),
+.friends li:nth-child(5),
+.friends li:nth-child(6) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

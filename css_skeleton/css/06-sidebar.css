@@ -23,6 +23,10 @@
     margin-bottom: 20px;
 }
 
+.profile-nav {
+    margin-bottom: 25px;
+}
+
 .profile-nav li {
     font-weight: bold;
     padding: 5px;
