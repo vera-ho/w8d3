@@ -4,5 +4,22 @@
     position: relative;
     margin-top: -120px;
     border: solid black 1px;
+    border-radius: 5px;
+}
+
+.profile-picture img {
+    border-radius: 5px;
+}
+
+.profile-info h1 { 
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-info p {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
