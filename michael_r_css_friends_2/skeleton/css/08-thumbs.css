@@ -1,0 +1,19 @@
+/* PHASE 2: Thumbs */
+
+
+.thumbNails{
+    display: flex;
+
+    
+}
+
+
+.img{
+    width : 25px;
+    height: 25px;
+}
+
+.thumbNails > li{
+    margin: 10px;
+    padding: 20px;
+}

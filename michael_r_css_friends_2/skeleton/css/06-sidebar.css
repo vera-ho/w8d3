@@ -1,0 +1,53 @@
+/* PHASE 0: Sidebar */
+.profile-info{
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 10px;
+    
+}
+
+/* .profile-info > p {
+    height: 10px;
+} */
+
+.profile-picture{
+    /* position: absolute; */
+    /* top: 50%; */
+    margin-top: -100px;
+    position: relative;
+    border:  solid black;
+  
+}
+
+
+/* .profile-info{
+    color: aqua;
+    font-size: large;
+    text-decoration-line: underline;
+}; */
+
+.profile-nav{
+    /* hover */
+    /* display: block; */
+    /* height: 25px; */
+    font-weight: bold;
+    /* border-top: 1px solid black; */
+
+    
+}
+
+.profile-nav a:hover{
+    background: gray;
+}
+
+.profile-nav > li{
+    border-bottom: 1px solid black;
+    height: 25px;
+
+}
+.profile-nav >li:first-child{
+    border-top: 1px solid black;
+
+}
+
+
